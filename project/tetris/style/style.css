@@ -1,0 +1,109 @@
+div {
+	box-sizing: border-box;
+}
+
+#container {
+	width: 670px;
+	height: 610px;
+	border: 1px black black;
+	border-radius: 3px;
+	background-color: #F5F5F5;
+}
+
+#centerContent {
+	position: absolute;
+	left: 100px;
+	border: 1px solid gray;
+	background-color: #000040;
+	margin: 0;
+}
+
+#rightBar {
+	width: 200px;
+	position: absolute;
+	left: 420px;
+}
+
+.row div {
+	float: left;
+	border: 1px solid #000040;
+	width: 30px;
+	height: 30px;
+	display: table-cell;
+}
+
+.row.clearfix {
+	clear: both;
+}
+
+#showWindow {
+	height: 160px;
+	padding: 20px;
+	margin-left: 40px;
+	background-color: #000040;
+}
+
+#startButton {
+	margin-top: 40px;
+}
+
+#pauseButton,
+#endButton,
+#helpBox {
+	margin-top: 10px;
+}
+
+#userNamePanel,
+#helpBox, 
+#startButton,
+#pauseButton,
+#endButton, 
+#maxScorePanel,
+#scorePanel {
+	margin-left: 40px;
+	padding: 10px;
+	text-align: center;
+	background-color: #000040;
+	color: #FFFFFF;
+}
+
+#startButton,
+#pauseButton,
+#endButton,
+#helpBox {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+/* remove JQuery-ui dialog header */
+.no-title-bar .ui-dialog-titlebar {
+	display: none;
+}
+
+#userNamePanel,
+#maxScorePanel {
+	margin-top: 10px;
+	text-align: center;
+}
+
+#scorePanel {
+	margin-top: 10px;
+	text-align: left;
+}
+
+/* color for different shapes */
+.yellow {
+	background-color: #FFFF00;
+}
+
+.cyan {
+	background-color: #00FFFF;
+}
+.closeButton {
+	
+	position: absolute;
+	left: 300px;
+	border: 1px solid black;
+	margin: -3px;
+	font-size: 10px;
+}
